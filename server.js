@@ -6,8 +6,7 @@ const app = express();
 app.use(express.static('./public'));
 
 app.get('/', (req,res) => {
-
-  res.status(200).send('To the moon!');
+  res.status(200).send('To le moon!');
 });
 
 // this isn't working
